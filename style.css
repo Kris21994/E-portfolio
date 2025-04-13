@@ -652,6 +652,7 @@ SHAPES
 
 .shape {
     position: fixed;
+    opacity: 0.6;
 }
 
 .shape--0 {
@@ -720,6 +721,19 @@ SHAPES
     .contact__form {
         width: 100%;
         max-width: 450px;
+    }
+
+    .shape--3 {
+        top: 30vh;
+    }
+
+    .shape--4 {
+        top: 30vh;
+        left: 50vw;
+    }
+    .shape--5 {
+        top: 70vh;
+        left: 80vw;
     }
 }
 
